@@ -3,13 +3,14 @@
 </p>
 
 <p align="center">
-  <b>Open-source software for power plants, real-time runtimes and type-safe streaming.</b><br>
+  <b>Open-source software for power plants and the protocols they speak, real-time runtimes and type-safe streaming.</b><br>
   Typed end to end, tested at every level and documented like products.
 </p>
 
 <p align="center">
   <a href="https://araminix.github.io/"><b>Website</b></a> ·
   <a href="https://araminix.github.io/plantline/"><b>Try plantline</b></a> ·
+  <a href="https://araminix.github.io/gridlingo/"><b>Learn with Gridlingo</b></a> ·
   <a href="https://github.com/amin-abbasi">Amin Abbasi</a>
 </p>
 
@@ -26,6 +27,21 @@ inverters, turbines and cables counted. Free, no account, and your files never l
 - 14 languages with Arabic and Persian right to left, light and dark themes, phones and tablets, and no tracking
 
 **[Open the app](https://araminix.github.io/plantline/)** · [Source](https://github.com/araminix/plantline)
+
+## Gridlingo
+
+**How energy devices talk, explained visually, byte by byte.** Each lesson plays a real exchange between real
+devices, from IEC 61850 GOOSE and IEC 60870-5-104 to DNP3, Modbus, OCPP, DLMS/COSEM, PROFINET and Zigbee Smart
+Energy: watch the messages travel across the site, then open any message and read every byte. Free, no account and
+no tracking.
+
+<a href="https://araminix.github.io/gridlingo/"><img src="https://raw.githubusercontent.com/araminix/gridlingo/main/docs/images/lesson-light.png" alt="A Gridlingo lesson: IEC 60870-5-104 between a SCADA master and an RTU, step by step" width="720"></a>
+
+- 48 protocols for substations, control centres, plants, EV charging, metering, IoT and security
+- Site, sequence, single-line and timing views; every byte coloured and explained, and proven by tests
+- 14 languages with Arabic and Persian right to left, technical or plain words, light and dark themes, phones
+
+**[Start learning](https://araminix.github.io/gridlingo/)** · [Source](https://github.com/araminix/gridlingo)
 
 ## Runtimes for real-time apps
 
