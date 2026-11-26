@@ -46,16 +46,17 @@ no tracking.
 
 ## MedView
 
-**Open and understand a hospital file, without it ever leaving your computer.** Drop a FHIR, HL7 v2 or C-CDA file
-and get a clean clinical report, a body map, a diagram of how everything in the file is linked, and a summary in
-everyday words. There is no server and no account: the file is read in the browser and is gone when the tab closes.
+**Open and understand a hospital file, without it ever leaving your computer.** Drop a hospital record, an Apple
+Health export or a scan and get a clean clinical report, a body map, the images, a diagram of how everything in the
+file is linked, and a summary in everyday words. There is no server and no account: the file is read in the browser and is gone when the tab closes.
 
 <a href="https://araminix.github.io/medview/"><img src="https://raw.githubusercontent.com/araminix/medview/main/docs/images/report-dark.png" alt="MedView's report: abnormal results first with their reference ranges, active conditions, allergies and a body map" width="720"></a>
 
-- FHIR R4 and R5, HL7 v2 and US C-CDA, zipped or not; abnormal results first, with reference ranges and a body map
+- FHIR, HL7 v2, C-CDA, IPS, openEHR, Apple Health and DICOM scans, zipped or not; abnormal results first, with
+  reference ranges, a body map and an image viewer
 - My Summary in plain words for patients; a resource graph, FHIRPath and a scrubber for private data for developers
-- Works offline, with a CI test that fails if one request leaves the page; English, Persian (right to left, Jalali
-  dates) and Turkish
+- Works offline, with a CI test that fails if one request leaves the page; 14 languages, Arabic and Persian right to
+  left
 
 **[Open the app](https://araminix.github.io/medview/)** · [Source](https://github.com/araminix/medview)
 
