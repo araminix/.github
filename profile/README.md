@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>Open-source software for power plants and the protocols they speak, real-time runtimes and type-safe streaming.</b><br>
+  <b>Open-source software for power plants and the protocols they speak, a private viewer for medical records,<br>real-time runtimes, type-safe streaming and a typed data layer.</b><br>
   Typed end to end, tested at every level and documented like products.
 </p>
 
@@ -11,6 +11,7 @@
   <a href="https://araminix.github.io/"><b>Website</b></a> ·
   <a href="https://araminix.github.io/plantline/"><b>Try plantline</b></a> ·
   <a href="https://araminix.github.io/gridlingo/"><b>Learn with Gridlingo</b></a> ·
+  <a href="https://araminix.github.io/medview/"><b>Open MedView</b></a> ·
   <a href="https://github.com/amin-abbasi">Amin Abbasi</a>
 </p>
 
@@ -43,12 +44,28 @@ no tracking.
 
 **[Start learning](https://araminix.github.io/gridlingo/)** · [Source](https://github.com/araminix/gridlingo)
 
-## Runtimes for real-time apps
+## MedView
+
+**Open and understand a hospital file, without it ever leaving your computer.** Drop a FHIR, HL7 v2 or C-CDA file
+and get a clean clinical report, a body map, a diagram of how everything in the file is linked, and a summary in
+everyday words. There is no server and no account: the file is read in the browser and is gone when the tab closes.
+
+<a href="https://araminix.github.io/medview/"><img src="https://raw.githubusercontent.com/araminix/medview/main/docs/images/report-dark.png" alt="MedView's report: abnormal results first with their reference ranges, active conditions, allergies and a body map" width="720"></a>
+
+- FHIR R4 and R5, HL7 v2 and US C-CDA, zipped or not; abnormal results first, with reference ranges and a body map
+- My Summary in plain words for patients; a resource graph, FHIRPath and a scrubber for private data for developers
+- Works offline, with a CI test that fails if one request leaves the page; English, Persian (right to left, Jalali
+  dates) and Turkish
+
+**[Open the app](https://araminix.github.io/medview/)** · [Source](https://github.com/araminix/medview)
+
+## Runtimes and data for real-time apps
 
 | Package | What it is | npm |
 | --- | --- | --- |
 | [@araminix/platform](https://github.com/araminix/platform) | An actor-based application runtime and WebSocket platform for Node.js: each app in its own worker thread, server-driven UI, external agents and a hardened endpoint | [![npm](https://img.shields.io/npm/v/@araminix/platform)](https://www.npmjs.com/package/@araminix/platform) |
 | [@araminix/lib](https://github.com/araminix/lib) | Any number of typed, bidirectional streams over one WebSocket, kept alive across network drops, with the same code in browsers and Node.js | [![npm](https://img.shields.io/npm/v/@araminix/lib)](https://www.npmjs.com/package/@araminix/lib) |
+| [@araminix/arango-dao](https://github.com/araminix/arango-dao) | A type-safe data layer and AQL query builder for ArangoDB: composable views, typed filters, sorting, pagination and full-text search, declared collections and indexes, and transactions, every answer validated and returned as a Result | [![npm](https://img.shields.io/npm/v/@araminix/arango-dao)](https://www.npmjs.com/package/@araminix/arango-dao) |
 
 ## Also by Amin Abbasi
 
